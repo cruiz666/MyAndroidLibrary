@@ -39,6 +39,6 @@ dependencies {
 ext {
     PUBLISH_GROUP_ID = 'io.github.cruiz666'
     PUBLISH_VERSION = '1.0'
-    PUBLISH_ARTIFACT_ID = 'MyAndroidLibrary'
+    PUBLISH_ARTIFACT_ID = 'hello'
 }
 apply from: "${rootProject.projectDir}/scripts/publish-mavencentral.gradle"
