@@ -67,6 +67,12 @@ publishing {
                         email = 'ruizcarlos1985@gmail.com'
                     }
                 }
+                licenses {
+                    license {
+                        name = 'Hello License'
+                        url = 'https://github.com/cruiz666/MyAndroidLibrary/blob/master/LICENSE'
+                    }
+                }
                 scm {
                     connection = 'scm:git:github.com/cruiz666/MyAndroidLibrary.git'
                     developerConnection = 'scm:git:ssh://github.com/cruiz666/MyAndroidLibrary.git'
